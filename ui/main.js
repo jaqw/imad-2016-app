@@ -47,6 +47,6 @@ ul.innerHTML = list;
 //make request
 var nameInput = document.getElementById('name');
 var name      = nameInput.value;
-request.open('GET', 'http://manu777.imad.hasura-app.io/submit-name?name=' + name,true);
+request.open('GET', 'http://jaqw.imad.hasura-app.io/submit-name?name=' + name,true);
 request.send(null);
 };
